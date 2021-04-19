@@ -1,0 +1,63 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://imagenes-preguntas/imagen8.png" type="Texture" id=1]
+[ext_resource path="res://Custionarios/Imagenes.gd" type="Script" id=2]
+[ext_resource path="res://imagenes-preguntas/imagen7.png" type="Texture" id=3]
+[ext_resource path="res://imagenes-preguntas/imagen3.png" type="Texture" id=4]
+[ext_resource path="res://imagenes-preguntas/imagen4.png" type="Texture" id=5]
+[ext_resource path="res://imagenes-preguntas/imagen2.png" type="Texture" id=7]
+[ext_resource path="res://imagenes-preguntas/imagen6.png" type="Texture" id=8]
+[ext_resource path="res://imagenes-preguntas/imagen5.png" type="Texture" id=9]
+
+[node name="Imagenes" type="Node"]
+script = ExtResource( 2 )
+
+[node name="imagen1" type="TextureRect" parent="."]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="imagen2" type="TextureRect" parent="."]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 7 )
+
+[node name="imagen3" type="TextureRect" parent="."]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 4 )
+
+[node name="imagen4" type="TextureRect" parent="."]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 5 )
+
+[node name="imagen5" type="TextureRect" parent="."]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 9 )
+
+[node name="imagen6" type="TextureRect" parent="."]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 8 )
+
+[node name="imagen7" type="TextureRect" parent="."]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 3 )
+
+[node name="imagen8" type="TextureRect" parent="."]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 1 )

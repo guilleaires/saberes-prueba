@@ -1,0 +1,48 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Node",
+"class": "Pregunta",
+"language": "GDScript",
+"path": "res://Custionarios/Pregunta.gd"
+} ]
+_global_script_class_icons={
+"Pregunta": ""
+}
+
+[application]
+
+config/name="Saberes de Astronomia"
+run/main_scene="res://Gui.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+Categorias="*res://Custionarios/Categoria.tscn"
+
+[display]
+
+window/size/width=480
+window/size/height=720
+
+[input]
+
+volver={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777220,"unicode":0,"echo":false,"script":null)
+ ]
+}
+
+[rendering]
+
+quality/driver/driver_name="GLES2"
+environment/default_clear_color=Color( 0.290196, 0.341176, 0.454902, 1 )
+environment/default_environment="res://default_env.tres"
