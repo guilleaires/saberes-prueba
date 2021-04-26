@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/index.png-010f939a67a23c2a0e2dc796f39a88e3.stex"
+path="res://.import/index.png-659c11691fe5279cf81f33eb936290a4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://build/saberes-prueba/index.png"
-dest_files=[ "res://.import/index.png-010f939a67a23c2a0e2dc796f39a88e3.stex" ]
+source_file="res://build/index.png"
+dest_files=[ "res://.import/index.png-659c11691fe5279cf81f33eb936290a4.stex" ]
 
 [params]
 
