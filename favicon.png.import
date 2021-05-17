@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/favicon.png-1c86a1a144f7ed32ce4b77106292b307.stex"
+path="res://.import/favicon.png-488bae6477b1637ef487d3465d73a745.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://build/favicon.png"
-dest_files=[ "res://.import/favicon.png-1c86a1a144f7ed32ce4b77106292b307.stex" ]
+source_file="res://build/saberes-prueba/favicon.png"
+dest_files=[ "res://.import/favicon.png-488bae6477b1637ef487d3465d73a745.stex" ]
 
 [params]
 
